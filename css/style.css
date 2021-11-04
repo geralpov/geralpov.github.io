@@ -10,7 +10,6 @@ img {
 }
 
 
-
 /* SLIDER */
 
 .swiper {
@@ -115,31 +114,37 @@ h1{
 
 .footer {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   background-color: #60262B;
   text-align: center;
-  padding: 50px 70px 70px 8px;
-
+  padding: 50px 70px 20px 80px;
+gap: 7em
 }
 ul li {
   list-style: none;
 }
 
 .footer ul li a{
-  padding: 50px   ;
   color: #ffffff;
-}
-
-
-.icon_footer {
-  width: 20px;
-  gap: 10px;
-
 }
 
 .logo {
 width: 8%;
 }
+
+.icon_footer{
+  background-color: #60262B;
+  width: 9%;
+
+
+}
+  
+.icon_footer ul {
+    gap: 12px;
+    display:flex;
+}
+
+
 
 /* FIN FOOTER */
 
@@ -198,6 +203,35 @@ width: 8%;
   margin-top: 10px;
 }
 /* FIN GALERY */
+/* FOOTER */
+
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #60262B;
+  text-align: center;
+  padding: 50px 70px 20px 80px;
+  gap: 3em
+}
+ul li {
+  list-style: none;
+}
+.footer ul li a{
+  color: #ffffff;
+}
+.logo {
+width: 8%;
+}
+.icon_footer{
+  background-color: #60262B;
+  width: 15%;
+}
+  
+.icon_footer ul {
+    gap: 12px;
+    display:flex;
+}
 }
 
 
@@ -255,32 +289,31 @@ width: 8%;
 
 .footer {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   background-color: #60262B;
   text-align: center;
-  padding: 30px 60px 30px 20px;
-
+  padding: 50px 70px 20px 80px;
+  gap: 7em
 }
 ul li {
   list-style: none;
 }
-
 .footer ul li a{
-  padding: 15px   ;
   color: #ffffff;
 }
-
-
-.icon_footer {
-  width: 20px;
-
-}
-
 .logo {
-width: 15%;
+width: 8%;
+}
+.icon_footer{
+  background-color: #60262B;
+  width: 9%;
+}
+  
+.icon_footer ul {
+    gap: 12px;
+    display:flex;
 }
 }
-
   
 
 /* ##Dispositivo = Smartphones de 320px a 479px */
@@ -351,8 +384,8 @@ iframe {
   justify-content: center;
   background-color: #60262B;
   text-align: center;
-  padding: 50px 10px 50px 10px;
-  gap:10px;
+  padding: 50px 10px 20px 10px;
+  gap:20px;
   font-size: 13px;
 
 
@@ -370,12 +403,20 @@ width: 20%;
 margin-left: 11em;
 }
 
-.icon_footer img {
-  width: 20px;
-  margin-left: 9em;
-  display: inline;
+.icon_footer{
+  background-color: #60262B;
+  width: 100%;
+
 }
-.cd-auto-hide-header .nav-trigger {
-  width: 6%;
-  height: 10%;}
+  
+.icon_footer ul {
+  margin-left: 9em;
+    width: 30%;
+    gap: 12px;
+    display:flex;
+    flex-direction: row; 
+    justify-content:center;
+
+}
+
 }
