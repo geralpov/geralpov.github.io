@@ -379,13 +379,13 @@ iframe {
 /* FOOTER */
 
 .footer {
-  display: flex;
+   display: flex;
   flex-direction:column;
   justify-content: center;
   background-color: #60262B;
   text-align: center;
-  padding: 50px 10px 20px 10px;
-  gap:20px;
+  padding: 50px 10px 50px 10px;
+  gap:40px;
   font-size: 13px;
 
 
