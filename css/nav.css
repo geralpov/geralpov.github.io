@@ -36,7 +36,7 @@ a {
   top: 0;
   left: 0;
   width: 100%;
-  height: 70px;
+  height: 60px;
   background-color: #AFAFAF;
   border-bottom: 1px solid #AFAFAF;
   /* Force Hardware Acceleration */
@@ -60,7 +60,7 @@ a {
 }
 @media only screen and (min-width: 1024px) {
   .cd-auto-hide-header {
-    height: 80px;
+    height: 100px;
   }
 }
 
@@ -71,9 +71,9 @@ a {
   bottom: auto;
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
-          width: 3%;
-          height: 10%;
+          transform: translateY(-70%);
+          width: 5%;
+          height: 60%;
 }
 
 .cd-auto-hide-header .logo {
